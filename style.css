@@ -1,0 +1,99 @@
+*{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .common-btn{
+    padding: 15px 22px;
+    border-radius: 5px;
+    background-color: #F15B22;
+    border: none;
+    color: white;
+}
+
+/* Banner Section */
+
+.banner-section{
+    background-image: url("/images/banner/banner1.png");
+    background-size: cover;
+    width: 1255px;
+    height: 650px;
+}
+.description{
+    text-align: right;
+    padding-top: 160px;
+    padding-right: 150px;
+    padding-left: 600px;
+}
+.title{
+    font-size: 25px;
+}
+.title-sescription{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #444343;
+}
+
+/* About Me Section */
+
+.aboutme-section{
+    display: flex;
+    gap: 150px;
+    margin-top: 80px;
+    
+}
+.aboutme-img{
+    padding-left: 80px;
+}
+.aboutme-img > img{
+    width: 450px;
+}
+.aboutme-des{
+    padding: 50px 135px 0px 0px;
+}
+.aboutme-title{
+    font-size: 35px;
+}
+.aboutme-2nd-des{
+    font-size: 16px;
+}
+ul li{
+   list-style:square ;
+}
+.plan-section{
+    margin-top: 100px;
+}
+.plan-hed{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.my-plangs{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 65px;
+    padding-left: 270px;
+}
+.plan-title{
+    font-size: 20px;
+    font-style:inherit ;
+    padding: 7px 5px;
+}
+.plan-description{
+    color: #444343;
+}
+.cta-section{
+    background-image: url("/images/watch.png");
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 150px;
+    padding: 30px;
+    height: 300px;
+}
+.cta-title{
+    font-size: 30px;
+    color: white;
+}
