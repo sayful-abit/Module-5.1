@@ -97,3 +97,38 @@ ul li{
     font-size: 30px;
     color: white;
 }
+footer .pree-footer{
+    display: flex;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 150px;
+    gap: 150px;
+}
+.social-icon{
+    display: flex;
+    gap: 20px;
+}
+footer .future{
+    width: 50%;
+}
+footer .subscribe{
+    padding-left: 50px;
+    
+}
+.future >p{
+    font-size: 15px;
+}
+.future >h3{
+    font-size: 30px;
+}
+input{
+    width: 150px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+}
+.post-footer{
+    text-align: center;
+    color: rgb(195, 195, 195);
+    margin: 25px 25px;
+}
